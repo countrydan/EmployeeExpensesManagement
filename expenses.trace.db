@@ -1,0 +1,19 @@
+2024-04-06 14:51:00.411785+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-224]
+2024-04-06 14:53:18.216812+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-224]
+2024-04-06 14:54:00.927101+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-224]
+2024-04-06 15:10:36.945519+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-224]
+2024-04-06 16:22:19.649937+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" already exists; SQL statement:
+CREATE TABLE employees
+ (id INTEGER, title VARCHAR(255), firstName VARCHAR(255),
+ surname VARCHAR(255),  jobTitle VARCHAR(255), department VARCHAR(255), PRIMARY KEY (id)) [42101-224]
+2024-04-06 17:11:37.565833+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-04-06 17:14:43.169648+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-04-06 17:17:18.492033+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
